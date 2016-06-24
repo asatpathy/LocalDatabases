@@ -7,5 +7,5 @@ CREATE TABLE [dbo].[EmployeeDepartment]
 GO
 ALTER TABLE [dbo].[EmployeeDepartment] ADD CONSTRAINT [FK_EmployeeDepartment] FOREIGN KEY ([DepartmentID]) REFERENCES [dbo].[Department] ([DepartmentID])
 GO
-ALTER TABLE [dbo].[EmployeeDepartment] ADD CONSTRAINT [FK__EmployeeD__Emplo__1A14E395] FOREIGN KEY ([EmployeeID]) REFERENCES [dbo].[Employee] ([EmployeeID])
+ALTER TABLE [dbo].[EmployeeDepartment] ADD CONSTRAINT [FK__EmployeeD__Emplo__1A14E395] FOREIGN KEY ([EmployeeID]) REFERENCES [dbo].[EMPLOYEE1] ([EmployeeID])
 GO

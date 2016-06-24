@@ -1,4 +1,4 @@
-CREATE TABLE [dbo].[Employee]
+CREATE TABLE [dbo].[EMPLOYEE1]
 (
 [EmployeeID] [int] NOT NULL IDENTITY(1, 1),
 [EmployeeName] [varchar] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
@@ -9,5 +9,5 @@ CREATE TABLE [dbo].[Employee]
 [ZipCode] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL
 ) ON [PRIMARY]
 GO
-ALTER TABLE [dbo].[Employee] ADD CONSTRAINT [PK__Employee__7AD04FF1ADBF4FBA] PRIMARY KEY CLUSTERED  ([EmployeeID]) ON [PRIMARY]
+ALTER TABLE [dbo].[EMPLOYEE1] ADD CONSTRAINT [PK__Employee__7AD04FF1ADBF4FBA] PRIMARY KEY CLUSTERED  ([EmployeeID]) ON [PRIMARY]
 GO
